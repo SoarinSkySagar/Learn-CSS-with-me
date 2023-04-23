@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: papayawhip;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    outline: 2px dashed;
+    padding: 1rem;
+    width: 50%;
+    margin: 170px auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 217);
+    cursor: cell;
+
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover, a:focus {
+    color: aqua;
+    background-color: white;
+}
+
+a:active {
+    color: green;
+}

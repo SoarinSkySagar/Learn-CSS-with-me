@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    font-size: 32px;
+}
+
+h1 {
+    border: 2px dashed red;
+    width: 60%;
+    padding: 0.5em;
+    font-size: 1.5rem;
+}
+
+p {
+    border: 2px dotted red;
+}
+
+body {
+    border: 2px dashed purple;
+    background: papayawhip;
+}
